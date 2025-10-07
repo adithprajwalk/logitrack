@@ -6,9 +6,7 @@
 
 A web-based inventory management and logistics optimization tool built with Python and Streamlit. This version focuses on core fulfillment logic to determine the most cost-effective way to allocate orders across a network of warehouses.
 
-(Feel free to replace the image link with your own screenshot!)
-
-🚀 Core Features
+🚀 **Core Features**
 📊 Interactive Dashboard: A real-time overview of total inventory, pending orders, and products needing replenishment.
 
 📦 Warehouse Management: Monitor individual warehouse utilization and view detailed stock levels.
@@ -21,7 +19,7 @@ A web-based inventory management and logistics optimization tool built with Pyth
 
 🗺️ Geographic Visualization: Maps out the final allocation plan, showing the routes from warehouses to customer locations.
 
-🛠️ Technology Stack
+🛠️ **Technology Stack**
 Backend: Python
 
 Web Framework: Streamlit
@@ -30,7 +28,7 @@ Data Handling: Pandas, NumPy
 
 Visualization: Plotly
 
-💾 Data Model
+💾 **Data Model**
 The system runs on a set of simple CSV files located in the /data directory:
 
 sample_warehouses.csv: Contains details for each warehouse (location, capacity, storage cost).
@@ -41,48 +39,52 @@ sample_sales.csv: A list of all customer orders, including their status and deli
 
 inventory_levels.csv: (Key Table) A detailed breakdown of the stock level for each product within each specific warehouse.
 
-⚙️ Getting Started
+⚙️ **Getting Started**
 Follow these instructions to get the project running on your local machine.
 
 Prerequisites
 Python 3.9 or higher
-
 pip package manager
-
 Git
 
 Installation
-Clone your repository:
+1. Clone your repository:
 
 Bash
-
+```
 git clone https://github.com/adithprajwalk/logitrack.git
 cd logitrack
-Create and activate a virtual environment:
+```
+2.Create and activate a virtual environment:
 
 On macOS/Linux:
 
 Bash
-
+```
 python3 -m venv venv
 source venv/bin/activate
+```
 On Windows:
 
 Bash
-
+```
 python -m venv venv
 venv\Scripts\activate
-Install dependencies:
+```
+
+3.Install dependencies:
 (Note: You will need to create a requirements.txt file first if you haven't already. You can do this by running pip freeze > requirements.txt in your activated environment.)
 
 Bash
-
+```
 pip install -r requirements.txt
-Run the application:
+```
+4.Run the application:
 
 Bash
-
+```
 streamlit run src/app.py
+```
 Your browser should open with the application running.
 
 🕹️ How to Use
@@ -95,6 +97,7 @@ Navigate to the "Optimization" page using the sidebar.
 Click the "🚀 Run Optimization" button.
 
 Review the generated allocation plan, cost analysis, and map visualization.
+
 
 
 
