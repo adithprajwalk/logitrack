@@ -6,6 +6,8 @@
 
 A web-based inventory management and logistics optimization tool built with Python and Streamlit. This version focuses on core fulfillment logic to determine the most cost-effective way to allocate orders across a network of warehouses.
 
+(Feel free to replace the image link with your own screenshot!)
+
 🚀 Core Features
 📊 Interactive Dashboard: A real-time overview of total inventory, pending orders, and products needing replenishment.
 
@@ -71,7 +73,7 @@ Bash
 python -m venv venv
 venv\Scripts\activate
 Install dependencies:
-(You will need to create a requirements.txt file first if you haven't already. You can do this by running pip freeze > requirements.txt in your activated environment after installing streamlit, pandas, etc.)
+(Note: You will need to create a requirements.txt file first if you haven't already. You can do this by running pip freeze > requirements.txt in your activated environment.)
 
 Bash
 
@@ -93,3 +95,13 @@ Navigate to the "Optimization" page using the sidebar.
 Click the "🚀 Run Optimization" button.
 
 Review the generated allocation plan, cost analysis, and map visualization.
+
+
+
+
+
+
+
+
+
+
