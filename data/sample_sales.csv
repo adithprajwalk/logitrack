@@ -1,0 +1,9 @@
+order_id,date,product_id,quantity,customer_name,delivery_deadline,region,status,delivery_latitude,delivery_longitude
+ORD001,2025-03-24 15:30:00,PROD001,500,Mumbai Enterprises,2025-11-26 15:30:00,Asia,Pending,19.0760,72.8777
+ORD002,2025-03-24 16:45:00,PROD002,750,Sydney Corp,2025-11-25 16:45:00,Oceania,Urgent,-33.8688,151.2093
+ORD003,2025-10-08 17:20:00,PROD003,300,Berlin Tech,2025-10-08 17:20:00,Europe,Pending,52.5200,13.4050
+ORD004,2025-03-24 18:10:00,PROD001,600,São Paulo Trading,2025-11-25 18:10:00,South America,Urgent,-23.5505,-46.6333
+ORD005,2025-03-24 19:00:00,PROD004,400,Cairo Distributors,2025-11-26 19:00:00,Africa,Pending,30.0444,31.2357
+ORD006,2025-03-24 19:45:00,PROD002,550,Seoul Marketing,2025-11-27 19:45:00,Asia,Pending,37.5665,126.9780
+ORD007,2025-03-24 20:15:00,PROD003,800,Toronto Systems,2025-11-25 20:15:00,North America,Urgent,43.6532,-79.3832
+ORD008,2025-03-24 20:39:55,PROD004,450,Paris Trading,2025-11-26 20:39:55,Europe,Pending,48.8566,2.3522
